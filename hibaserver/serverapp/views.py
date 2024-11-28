@@ -23,4 +23,4 @@ def power_calculator(request):
                 power = "Invalid input. Please enter numerical values."
 
     
-    return render(request, 'serverapp/server.html', {'power': power})
+   return render(request, 'mathapp/mathserver.html', {'power': power, 'intensity': intensity, 'resistance': resistance})
